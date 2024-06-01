@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d103e11e5bc24492805dcc1140fb484d, type: 3}
+  m_Name: AnimationSoundConfig
+  m_EditorClassIdentifier: 
+  SoundsByTriggerName:
+    list:
+    - Key: ToMarashinoStep
+      Value: {fileID: 8300000, guid: 8f5a10e9d982e95419ecc673695b36e1, type: 3}
+    - Key: ToTwerk
+      Value: {fileID: 8300000, guid: bddd839a44f35cd4fad767f48e7493e5, type: 3}
+    - Key: ToFlair
+      Value: {fileID: 8300000, guid: 7695b40f95480834c863194c9daa36a5, type: 3}
+    keyCollision: 0
