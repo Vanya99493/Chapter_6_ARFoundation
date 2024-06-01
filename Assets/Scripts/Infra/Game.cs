@@ -56,6 +56,7 @@ namespace Infra
             _isPaused = !_isPaused;
             _charactersAnimationService.SetPause(_isPaused);
             _uiController.SetPause(_isPaused);
+            _audioController.SetPause(_isPaused);
         }
 
         private void OnResetButtonClick()

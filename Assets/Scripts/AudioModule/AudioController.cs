@@ -22,6 +22,18 @@ namespace AudioModule
             _audioSource.Play();
         }
 
+        public void SetPause(bool isPaused)
+        {
+            if (isPaused)
+            {
+                _audioSource.Pause();
+            }
+            else
+            {
+                _audioSource.UnPause();
+            }
+        }
+
         public void StopAudio()
         {
             _audioSource.Stop();
